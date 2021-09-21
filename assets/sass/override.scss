@@ -1,8 +1,8 @@
 // === Import Bootstrap and set variable overrides ===
 $body-bg: {{ if .Param "style.backgroundColor" }}{{ .Param "style.backgroundColor"}}{{ else }}#f8f9fa{{ end }};
 $body-color: {{ if .Param "style.fontColor" }}{{ .Param "style.fontColor"}}{{ else }}#212529{{ end }};
-$font-family-base: "Helvetica Neue", Arial, sans-serif;
-$font-size-base: 0.95rem;
+$font-family-base: "Cardo", ""Helvetica Neue", Arial, sans-serif;
+$font-size-base: 1.1rem;
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // === Import Font Awesome ===
