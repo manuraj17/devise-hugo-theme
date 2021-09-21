@@ -82,10 +82,10 @@ header {
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	vertical-align: middle;
-	border-radius: .2rem;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: .2rem;
 }
 
 h4 {
@@ -95,6 +95,7 @@ h4 {
 
 a {
   text-decoration: underline;
+  color: #0b0b0b;
 }
 
 blockquote {
@@ -116,6 +117,11 @@ blockquote:before {
 
 blockquote p {
   display: inline;
+}
+
+.list-unstyled > li {
+  margin: 1px;
+  padding: 1px;
 }
 
 // === Media breakpoints ===
