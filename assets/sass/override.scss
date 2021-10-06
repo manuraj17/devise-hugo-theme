@@ -5,7 +5,7 @@ $font-size-base: 1.1rem;
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // === Import Font Awesome ===
-$fa-font-path: "../webfonts";
+$fa-font-path: "../../static/webfonts";
 $font-family-base: "Cardo", "Helvetica Neue", Arial, sans-serif;
 
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
